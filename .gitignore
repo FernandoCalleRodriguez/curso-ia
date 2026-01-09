@@ -1,0 +1,76 @@
+# ============================================
+# INFORMACIÓN SENSIBLE - NO SUBIR A GITHUB
+# ============================================
+
+# Variables de entorno con API keys y secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================
+# ENTORNOS VIRTUALES DE PYTHON
+# ============================================
+
+venv/
+env/
+ENV/
+.venv
+virtualenv/
+
+# ============================================
+# BASES DE DATOS LOCALES
+# ============================================
+
+# ChromaDB
+chroma_db_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# ARCHIVOS DE PYTHON
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ============================================
+# ARCHIVOS TEMPORALES Y DE SISTEMA
+# ============================================
+
+# Archivos de salida
+test_output.txt
+*.log
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# ARCHIVOS GRANDES O PERSONALES
+# ============================================
+
+# PDFs personales (descomenta si no quieres subirlos)
+*.pdf
+
+# Datos descargados
+data/
+downloads/
